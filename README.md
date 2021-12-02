@@ -3,25 +3,24 @@ You play as a cat and your mission is to shoot evil lemons with hair balls to st
 
 INSTALL GAME
 
-Download necessary images and sounds (or make your own).
+1. Download necessary images and sounds (or make your own).
+    Background music: "bg_music.wav"
+    Shoot sound: "meow.wav"
+    Player image: "cat.png"
+    Enemy image: "lemon2.png"
+    Bullet: "fluffball.png"
+    Background image: "bg.bmp"
+    
+2. Open "Main.cpp".
 
-Background music: "bg_music.wav"
-Shoot sound: "meow.wav"
-Player image: "cat.png"
-Enemy image: "lemon2.png"
-Bullet: "fluffball.png"
-Background image: "bg.bmp"
-Open "Main.cpp".
-
-There are six paths to change so that they lead to the necessary images and sounds. Per default the paths are "C:/images/" or "C:/sounds/", but if they are located elsewhere on your computer just replace the path to where they are located.
+3. There are six paths to change so that they lead to the necessary images and sounds. Per default the paths are "C:/images/" or "C:/sounds/", but if they are located elsewhere on your computer just replace the path to where they are located.
 
 For example: const char* path_to_background = "c:/images/bg.bmp"; change to -> const char* path_to_background = "";
-
 The paths that can be changed and the corresponding filename of the image or sound: path_to_background(bg.bmp), path_to_player(cat.png), path_to_bullet(fluffball.png), path_to_enemy(lemon2.png), path_to_bg_music(bg_music.wav) and path_to_shoot_sound(meow.wav).
 
-Save the file "Main.cpp" (if you changed the paths).
+4. Save the file "Main.cpp" (if you changed the paths).
 
-Run the file "Main.cpp".
+5. Run the file "Main.cpp".
 
 HOW TO PLAY
 

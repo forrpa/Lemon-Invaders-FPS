@@ -1,5 +1,6 @@
 # Lemon-Invaders-FPS
-You play as a cat and your mission is to shoot evil lemons with hair balls to stay alive.
+Game engine and default game.
+Default game: You play as a cat and your mission is to shoot evil lemons with hair balls to stay alive.
 
 INSTALL GAME
 
